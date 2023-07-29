@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "652305926649",
+    "project_id": "ff-product-list",
+    "storage_bucket": "ff-product-list.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652305926649:android:9c1746514ad2119aa15528",
+        "android_client_info": {
+          "package_name": "com.mycompany.productlistapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652305926649-j7cu7tag4fbph7fepgb6llt3nhl82pf2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATIFXbgeWZgl_irsXH5kc_XDBzGN2SXcs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "652305926649-j7cu7tag4fbph7fepgb6llt3nhl82pf2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "652305926649-k786l1b5ls5mqkrscujget12v917bboi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.productlistapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
