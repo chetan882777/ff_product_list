@@ -119,8 +119,17 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           ),
                                     ),
                                     FFButtonWidget(
-                                      onPressed: () {
-                                        print('Button pressed ...');
+                                      onPressed: () async {
+                                        context.pushNamed(
+                                          'ProductDetail',
+                                          queryParameters: {
+                                            'productDocumentRef':
+                                                serializeParam(
+                                              listViewProductsRecord.reference,
+                                              ParamType.DocumentReference,
+                                            ),
+                                          }.withoutNulls,
+                                        );
                                       },
                                       text: 'Detail',
                                       options: FFButtonOptions(
